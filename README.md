@@ -1,1 +1,1 @@
-#This repo has a Parallel MIN-MAX Algorithm 
+# This repo has a Parallel MIN-MAX Algorithm 
