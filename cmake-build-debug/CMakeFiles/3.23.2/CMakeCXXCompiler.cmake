@@ -78,6 +78,6 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Users/interface/CLion 2022.2.4/bin/mingw/include;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Users/interface/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/include")
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;gomp;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib/gcc;C:/Users/interface/CLion 2022.2.4/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/interface/CLion 2022.2.4/bin/mingw/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

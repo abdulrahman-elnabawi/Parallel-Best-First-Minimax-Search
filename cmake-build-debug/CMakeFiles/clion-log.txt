@@ -1,4 +1,4 @@
-"C:\Users\interface\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/interface/CLion 2022.2.4/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\interface\Desktop\untitled -B C:\Users\interface\Desktop\untitled\cmake-build-debug
+"C:\Users\interface\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/interface/CLion 2022.2.4/bin/ninja/win/ninja.exe" -DCMAKE_CXX_FLAGS=-fopenmp -G Ninja -S C:\Users\interface\Desktop\untitled -B C:\Users\interface\Desktop\untitled\cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -11,6 +11,10 @@
 -- Check for working CXX compiler: C:/Users/interface/CLion 2022.2.4/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
+-- Found SFML 2.5.1 in C:/Users/interface/Desktop/untitled/SFML-2.5.1-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.1/lib/cmake/SFML
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/interface/Desktop/untitled/cmake-build-debug
