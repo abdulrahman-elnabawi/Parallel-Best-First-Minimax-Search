@@ -1,5 +1,3 @@
-# This repo has a Parallel MIN-MAX Algorithm 
-
 # Parallel Best-First Minimax Search
 
 This project implements a **parallelized version of the Best-First Minimax Search algorithm**, designed to efficiently evaluate game trees in two-player, zero-sum games. By leveraging multithreading, the algorithm aims to improve performance over traditional sequential approaches.
